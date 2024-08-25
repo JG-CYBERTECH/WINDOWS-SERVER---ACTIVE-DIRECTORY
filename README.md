@@ -1,4 +1,4 @@
-# PROJECT NAME DEMO
+# PROJECT TEST DEMO
 
 ## Objective
 [Brief Objective - Remove this afterwards]
