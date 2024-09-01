@@ -3,29 +3,57 @@
 ## Objective
 [Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+
+
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
+## Hands-On Activities
+1.	Install Active Directory Tools and Promote as DC
+2.	Creating Organizational Units (OUs)
+   
+	●	Objective: Organize the directory structure.
 
-Example below.
+o	Open Active Directory Users and Computers (ADUC).
 
-*Ref 1: Network Diagram*
+o	Create OUs for Different Geographical Locations (e.g., USA, Europe, Asia)
+	-	Right-click the domain name and select New > Organizational Unit.
+ 
+o	Create a nested OU inside the locations (e.g., USA > Computers, Users, Service Accounts)
+
+o	Create a nested OU inside Computers (e.g., IT > Servers)
+
+o	Create a nested OU inside Users (e.g., Accounting, HR, IT).
+
+![image](https://github.com/user-attachments/assets/122787bf-03c7-4c3e-a6f5-dd8cdae971f2)
+
+3.	Creating User Accounts
+   
+	●	Objective: Create user accounts with specific attributes.
+
+o	Navigate to the appropriate OU (e.g., HR).
+
+o	Right-click the OU and select New > User.
+
+o	Fill in the user details:
+-	First Name: John
+-	Last Name: Doe
+-	User Logon Name: jdoe
+  
+o	Set a password and configure the account settings (e.g., password never expires).
+
+o	Set a Description for John Doe (e.g., Recruiter)
+
+o	Create more users for IT and Accounting OU following the steps above
+
+![image](https://github.com/user-attachments/assets/332670ba-85a8-4bc6-8393-55e72eceb36e)
+
+
